@@ -25,7 +25,7 @@ export default function User() {
 
   return (
     <View style={styles.center}>
-      <Image source={require('../../assets/user.jpeg')} style={styles.imageUser} />
+      <Image source={require('../../assets/foto.jpg')} style={styles.imageUser} />
       <Text style={styles.welcomeText}>Bem vindo {userName}</Text>
       <Text style={styles.userInfo}>Seu nome completo: {userName}</Text>
       <Text style={styles.userInfo}>Sua data de aniversário: {userBirthday}</Text>
